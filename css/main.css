@@ -1,1 +1,8 @@
 /* main.css */
+#mobile-pantry {
+    background-image: url("MobilePantry.jpg");
+}
+
+#thousand-hills {
+    background-image: url("Farmer.jpg")
+}
