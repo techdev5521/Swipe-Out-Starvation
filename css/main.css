@@ -17,3 +17,9 @@
 #contact {
     margin: auto;
 }
+#our-mission{
+    background: url("/images/foodinsecurity.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
