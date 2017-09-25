@@ -14,7 +14,8 @@
 		<link rel="stylesheet" href="css/main.css"> <!-- Custom CSS -->
 
 		<!-- JavaScript -->
-		<script src"js/bootstrap.min.js"></script> <!-- Bootstrap 3.3.7 -->
+		<script src="js/bootstrap.min.js" type="text/JavaScript"></script> <!-- Bootstrap 3.3.7 -->
+		<!-- <script src="js/jquery.min.js"></script> -->
 	</head>
 
 
@@ -25,7 +26,39 @@
 			
 
 			<div class="row" id="frontpage">
+				<nav class="navbar navbar-default navbar-custom">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
+								<i class="fa fa-bars"></i>
+							</button>
+							<a href="index.html" class="navbar-brand">Swipe Out Starvation</a>
+						</div>
 
+						<div class="collapse navbar-collapse pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="#why">Why</a></li>
+								<li><a href="#our_mission">Our Mission</a></li>
+								<li><a href="#how_it_works">How It Works</a></li>
+								<li><a href="#where_donations_go">Where Donations Go</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+
+				<div class="row" id="big">
+					<div class="col-md-12">
+						<h1 class="section-title image-overlay">Everyone has insecurities,<br/ >food shouldn't be one of them.</h1>
+					</div>
+					<div class="col-md-3 col-md-offset-3" align="centered">
+						<a href="https://www.youtube.com/watch?v=K-WVX2WY6OU&feature=youtu.be" class="btn btn-lg btn-danger">Watch Our Video</a>
+					</div>
+					<div class="col-md-3" align="centered">
+						<a href="#why" class="btn btn-lg btn-default">Read More</a>
+					</div>
+				</div>
 			</div> <!-- /frontpage -->
 
 			
@@ -73,8 +106,8 @@
 
 
 			<div class="top-level-section row" id="our_mission">
-				<div class="col-md-4 pull-right" id="mission-statement">
-					<h1>Our Mission:</h1>
+				<div class="col-md-4 col-md-offset-6 image-overlay">
+					<h1 class="our-mission-title">Our Mission:</h1>
 					<p>To promote awareness and prompt action by allowing Purdue students to make a meaningful contribution in the fight against hunger.</p>
 				</div>
 			</div>
@@ -82,7 +115,7 @@
 
 			<div class="row top-level-section" id="how_it_works">
 				<div class="col-md-12">
-					<h1>How It Works</h1>
+					<h1 class="section-title">How It Works</h1>
 				</div>
 
 				<div class="row" style="margin-bottom: 50px;">
@@ -116,11 +149,60 @@
 
 
 			<div class="row top-level-section" id="where_donations_go">
-
+			<div class="row">
+				<div class="col-md-12">
+					<h1 class="section-title">Where Donations Go</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 title-highlight title-highlight-cyan">
+					<h1>Local</h1>
+				</div>
+			</div>
+			<div class="row" id="food-finders">
+				<div class="col-md-4 col-md-offset-1 image-overlay">
+					<img src="img/food_finders.png" alt="Food Finders">
+					<p>Food Finders is a food bank in Lafayette, IN committed to reducing food insecurity and fighting hunger.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 title-highlight title-highlight-purple">
+					<h1>Global</h1>
+				</div>
+			</div>
+			<div class="row" id="land">
+				<div class="col-md-4 col-md-offset-8 image-overlay">
+					<img src="img/land.png" alt="Land of 1000 Hills">
+					<p>Land of a Thousand Hills is a Rwandan coffee plantation aiming to rebuild Rwanda after its 1994 genocide.</p>
+				</div>
+			</div>
 			</div> <!-- /where_donations_go -->
 
+			<div class="row top-level-section" id="fact">
+				<h1 class="fact">On average, Swipe out Starvation donates $5000 per semester to both Food Finders and Land of a Thousand Hills</h1>
+			</div>
+
+			<hr style="border-bottom: 2px solid #acacac; width: 75%;">
+
 			<div class="row top-level-section" id="contact">
-				
+				<div class="col-md-4" align="center">
+						<a href="https://www.facebook.com/swipeoutstarvation/?ref=br_rs">
+							<img src="img/facebook.png" alt="Facebook">
+							<h2>Facebook</h2>
+						</a>
+				</div>
+				<div class="col-md-4" align="center">
+					<a href="https://twitter.com/swipeoutstarv">
+						<img src="img/twitter.png" alt="Twitter">
+						<h2>Twitter</h2>
+					</a>
+				</div>
+				<div class="col-md-4" align="center">
+					<a href="https://boilerlink.purdue.edu/organization/swipeoutstarvation">
+						<img src="img/boiler_link.png" alt="BoilerLink">
+						<h2>BoilerLink</h2>
+					</a>
+				</div>
 			</div> <!-- /contact -->
 
 
