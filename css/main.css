@@ -2,8 +2,14 @@
  *	main.css 
  */
 
+h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+}
+
  p{
  	font-family: 'Source Sans Pro', sans-serif;
+ 	font-weight: 400;
  }
 
 /* SECTIONS */
@@ -59,4 +65,22 @@
 
 .circle-bg-brown{
 	background: #402219;
+}
+
+.circle-bg-purple{
+	background: #894A69;
+}
+
+.circle-bg-purple p{
+	font-size: 6em;
+	color: #ffffff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.highlight{
+	color: #67A59D;
+	font-weight: 600;
 }
