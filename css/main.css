@@ -1,25 +1,5 @@
 /* main.css */
-#mobile-pantry {
-    background: url("/images/MobilePantry.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
-#thousand-hills {
-    background: url("/images/Farmer.jpg");
-    background-size: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#contact {
-    margin: auto;
-}
-#our-mission{
-    background: url("/images/foodinsecurity.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+#nav{
+	background-color: #67A59D;
 }
