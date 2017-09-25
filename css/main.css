@@ -1,5 +1,46 @@
-/* main.css */
+/*
+ *	main.css 
+ */
 
-#nav{
-	background-color: #67A59D;
+/* SECTIONS */
+.top-level-section{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#why p.info{
+	width: 15em;
+}
+
+/* UTILITIES */
+.circle-bg{
+	width: 10em;
+	height: 10em;
+	-moz-border-radius: 50%; 
+	-webkit-border-radius: 50%; 
+	border-radius: 50%;
+	position: relative;
+}
+
+.circle-bg i{
+	font-size: 6em;
+	color: #ffffff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.circle-bg-cyan{
+	background: #67A59D;
+}
+
+.circle-bg-yellow{
+	background: #F2E1A2;
+}
+
+.circle-bg-brown{
+	background: #402219;
 }
